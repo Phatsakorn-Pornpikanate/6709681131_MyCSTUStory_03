@@ -226,6 +226,7 @@ main
     font-size: 20px;
 }
 
+        /* footer */
 footer 
 {
     background-color: #777;
@@ -234,4 +235,15 @@ footer
     color: white;   
     position: static; 
     margin: 0;
+}
+
+/*-----------------Reponsive---------------------*/
+@media (max-width: 768px) /*tablet*/
+{
+    
+}
+
+@media (max-width: 360px) /*iphone*/
+{
+    
 }
