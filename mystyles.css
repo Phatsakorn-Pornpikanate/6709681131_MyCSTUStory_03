@@ -240,7 +240,32 @@ footer
 /*-----------------Reponsive---------------------*/
 @media (min-width: 1025px) /*desktop*/ 
 {
-    
+    body {
+        font-size: 18px; 
+    }
+    #home {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        padding: 40px; 
+    }
+    #home h2 {
+        font-size: 2.5em; 
+        margin: 40px 0; 
+        text-align: center; 
+    }
+    #home video {
+        width: 70%; 
+        height: auto; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+        margin-bottom: 20px; 
+    }
+    #home img {
+        width: 300px; 
+        height: auto; 
+        margin: 10px; 
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px)/*tablet*/
