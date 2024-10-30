@@ -240,7 +240,7 @@ footer
 }
 
 /*-----------------Reponsive---------------------*/
-@media (min-width: 1025px) /*desktop*/ 
+@media (min-width: 1024px) /*desktop*/ 
 {
     body {
         font-size: 18px; 
@@ -270,28 +270,30 @@ footer
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px)/*tablet*/
+@media (max-width: 768px)/*tablet*/
 {
     .menu {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
+
     .dropbtn {
         width: 100%;
         padding: 15px;
     }
 
-    .content {
-        padding: 10px;
+    header {
+        grid-template-columns: 1fr; /* เปลี่ยนเป็น 1 คอลัมน์ */
     }
 }
 
-@media (min-width: 360px) and (max-width: 767px) /*iphone*/
+@media (max-width: 360px)/*iphone*/
 {
     h1, h2 {
         font-size: 1.5em;
     }
-    
+
     nav, footer {
         padding: 10px 0;
     }
