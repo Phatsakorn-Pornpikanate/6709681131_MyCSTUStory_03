@@ -237,6 +237,7 @@ footer
     color: white;   
     position: static; 
     margin: 0;
+    width: 100%;
 }
 
 /*-----------------Reponsive---------------------*/
