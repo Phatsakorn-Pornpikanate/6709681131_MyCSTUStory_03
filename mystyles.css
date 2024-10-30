@@ -240,10 +240,27 @@ footer
 /*-----------------Reponsive---------------------*/
 @media (max-width: 768px) /*tablet*/
 {
-    
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .dropbtn {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .content {
+        padding: 10px;
+    }
 }
 
-@media (max-width: 360px) /*iphone*/
+@media (min-width: 360px) and (max-width: 767px) /*iphone*/
 {
+    h1, h2 {
+        font-size: 1.5em;
+    }
     
+    nav, footer {
+        padding: 10px 0;
+    }
 }
